@@ -920,7 +920,7 @@ T-Mobile TV Go kanály:
 	Dvojka: tm-4146-dvojka
 	Markíza Int.: tm-4460-markiza-int.
 	JOJ Family: tm-4461-joj-family
-	Trojka: tm-4516-trojka
+	:24: tm-4516-:24
 	JOJ Cinema: tm-4236-joj-cinema
 	Nova Cinema: tm-4462-nova-cinema
 	Prima Max: tm-6064-prima-max
