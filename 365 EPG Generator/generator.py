@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-#v2.7.1
+#v2.7.2
 
 # Nastavení
 # Počet dní (1-15)
@@ -26,7 +26,7 @@ T_MOBILE_TV_GO_IDS = ""
 SLEDOVANI_TV_CZ_IDS = ""
 
 #Časový posun (+/-hodina)
-time_shift = +1
+time_shift = +2
 
 #Nahrát EPG na ftp server
 #Ano = 1
@@ -224,6 +224,7 @@ def get_tm_programmes(tm_ids, d, d_b):
                 tm = str(ids[1:])
                 tvch[name] = "tm-" + id + "-" + encode(name).replace(" HD", "").lower().replace(" ", "-")
                 channels2.append(({"display-name": [(name.replace(" HD", ""), u"cs")], "id": "tm-" + id + "-" + encode(name).replace(" HD", "").lower().replace(" ", "-"), "icon": [{"src": logo}]}))
+    tvch["Trojka HD"] = "tm-4516-:24"
     now = datetime.now()
     for i in range(d_b*-1, d):
         next_day = now + timedelta(days = i)

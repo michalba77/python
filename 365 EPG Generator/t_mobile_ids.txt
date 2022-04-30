@@ -22,7 +22,7 @@ Jednotka HD: 4099
 Dvojka HD: 4146
 Markíza Int. HD: 4460
 JOJ Family HD: 4461
-Trojka HD: 4516
+:24 HD: 4516
 Prima Show HD: 6124
 Nova Lady HD: 6125
 JOJ Cinema: 4236

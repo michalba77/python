@@ -1,0 +1,2 @@
+[B]v2.7.2 (30.04.2022)[/B]
+T-Mobile - opravená chyba (změna názvu kanálu "Trojka" na ":24")
