@@ -1,5 +1,7 @@
 # -*- coding: utf-8 -*-
 
+#v2.7.1
+
 # Nastavení
 # Počet dní (1-15)
 days = 3
