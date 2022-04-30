@@ -58,6 +58,7 @@ from datetime import datetime, timedelta, date
 from ftplib import FTP
 import logging
 import time
+import schedule
 
 
 logging.basicConfig(filename='log.log', filemode='w', format='%(name)s - %(levelname)s - %(message)s')
@@ -459,7 +460,6 @@ def main():
 if __name__ == "__main__":
     main()
     try:
-        import schedule
         schedule.every(interval).hours.do(main)
         while update:
             schedule.run_pending()
